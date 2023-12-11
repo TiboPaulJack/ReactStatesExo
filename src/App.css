@@ -13,7 +13,12 @@
   }
 }
 
-.App-header {
+a{
+  text-decoration: none;
+
+}
+
+.App-header ,.recettes {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +27,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.recettes{
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .App-link {
